@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { AbstractLogger } from "next-core-logger";
 import { request } from "presentation-request";
 
 /**
@@ -7,7 +7,7 @@ import { request } from "presentation-request";
  * @extends AbstractLogger
  * @deprecated
  */
-class RestLogger extends Augmented.Logger.AbstractLogger {
+class RestLogger extends AbstractLogger {
   constructor(l, uri) {
     super(l);
     this._uri = uri;

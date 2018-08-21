@@ -1,4 +1,4 @@
-import Augmented from "augmentedjs-next";
+import { AbstractLogger, Level } from "next-core-logger";
 
 /**
  * Color Console Logger
@@ -6,7 +6,7 @@ import Augmented from "augmentedjs-next";
  * @memberof Logger
  * @extends AbstractLogger
  */
-class ColorConsoleLogger extends Augmented.Logger.AbstractLogger {
+class ColorConsoleLogger extends AbstractLogger {
   constructor(l) {
     super(l);
   };
@@ -15,13 +15,13 @@ class ColorConsoleLogger extends Augmented.Logger.AbstractLogger {
   };
 
   _logMe(message, level) {
-    if (level === Augmented.Logger.Level.INFO) {
+    if (level === Level.INFO) {
       console.info(`%c${message}`, "color: blue;");
-    } else if (level === Augmented.Logger.Level.ERROR) {
+    } else if (level === Level.ERROR) {
       console.error(`%c${message}`, "color: red;");
-    } else if (level === Augmented.Logger.Level.DEBUG) {
+    } else if (level === Level.DEBUG) {
       console.log(`%c${message}`, "color: gray;");
-    } else if (level === Augmented.Logger.Level.WARN) {
+    } else if (level === Level.WARN) {
       console.warn(`%c${message}`, "color: brown;");
     } else {
       console.log(`%c${message}`, "color: black;");
