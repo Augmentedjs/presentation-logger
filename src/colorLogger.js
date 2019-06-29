@@ -16,15 +16,15 @@ class ColorConsoleLogger extends AbstractLogger {
 
   _logMe(level, ...message) {
     if (level === Level.INFO) {
-      console.info(`%c`, ...message, "{color: blue;}");
+      console.info(`%c ${message[0]} ${message[1]}`, "color: blue;");
     } else if (level === Level.ERROR) {
-      console.error(`%c`, ...message, "{color: red;}");
+      console.error(`%c ${message[0]} ${message[1]}`, "color: red;");
     } else if (level === Level.DEBUG) {
-      console.log(`%c`, ...message, "{color: gray;}");
+      console.log(`%c ${message[0]} ${message[1]}`, "color: gray;");
     } else if (level === Level.WARN) {
-      console.warn(`%c`, ...message, "{color: brown;}");
+      console.warn(`%c ${message[0]} ${message[1]}`, "color: brown;");
     } else {
-      console.log(`%c`, ...message, "{color: black;}");
+      console.log(`%c ${message[0]} ${message[1]}`, "color: black;");
     }
   };
 };
