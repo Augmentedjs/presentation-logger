@@ -65,23 +65,9 @@ window.lunrData = {
           "consol",
           "logger",
           "logger.colorconsolelogg"
-        ],
-        "RestLogger.html": [
-          "_logm",
-          "class",
-          "logger",
-          "overrid",
-          "requir",
-          "rest",
-          "restlogg"
-        ],
-        "RestLogger.html#uri": [
-          "member",
-          "restlogger#uri",
-          "uri"
         ]
       },
-      "length": 6
+      "length": 4
     },
     "tokenStore": {
       "root": {
@@ -260,74 +246,6 @@ window.lunrData = {
                   }
                 }
               }
-            },
-            "q": {
-              "docs": {},
-              "u": {
-                "docs": {},
-                "i": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "RestLogger.html": {
-                        "ref": "RestLogger.html",
-                        "tf": 10
-                      }
-                    }
-                  }
-                }
-              }
-            },
-            "s": {
-              "docs": {},
-              "t": {
-                "docs": {
-                  "RestLogger.html": {
-                    "ref": "RestLogger.html",
-                    "tf": 10
-                  }
-                },
-                "l": {
-                  "docs": {},
-                  "o": {
-                    "docs": {},
-                    "g": {
-                      "docs": {},
-                      "g": {
-                        "docs": {
-                          "RestLogger.html": {
-                            "ref": "RestLogger.html",
-                            "tf": 1900
-                          }
-                        },
-                        "e": {
-                          "docs": {},
-                          "r": {
-                            "docs": {},
-                            "#": {
-                              "docs": {},
-                              "u": {
-                                "docs": {},
-                                "r": {
-                                  "docs": {},
-                                  "i": {
-                                    "docs": {
-                                      "RestLogger.html#uri": {
-                                        "ref": "RestLogger.html#uri",
-                                        "tf": 1150
-                                      }
-                                    }
-                                  }
-                                }
-                              }
-                            }
-                          }
-                        }
-                      }
-                    }
-                  }
-                }
-              }
             }
           }
         },
@@ -393,10 +311,6 @@ window.lunrData = {
                     },
                     "Logger.ColorConsoleLogger.html": {
                       "ref": "Logger.ColorConsoleLogger.html",
-                      "tf": 110
-                    },
-                    "RestLogger.html": {
-                      "ref": "RestLogger.html",
                       "tf": 110
                     }
                   }
@@ -529,10 +443,6 @@ window.lunrData = {
                       "Logger.ColorConsoleLogger.html": {
                         "ref": "Logger.ColorConsoleLogger.html",
                         "tf": 16.666666666666664
-                      },
-                      "RestLogger.html": {
-                        "ref": "RestLogger.html",
-                        "tf": 10
                       }
                     },
                     ".": {
@@ -596,95 +506,11 @@ window.lunrData = {
               }
             }
           }
-        },
-        "_": {
-          "docs": {},
-          "l": {
-            "docs": {},
-            "o": {
-              "docs": {},
-              "g": {
-                "docs": {},
-                "m": {
-                  "docs": {
-                    "RestLogger.html": {
-                      "ref": "RestLogger.html",
-                      "tf": 10
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "o": {
-          "docs": {},
-          "v": {
-            "docs": {},
-            "e": {
-              "docs": {},
-              "r": {
-                "docs": {},
-                "r": {
-                  "docs": {},
-                  "i": {
-                    "docs": {},
-                    "d": {
-                      "docs": {
-                        "RestLogger.html": {
-                          "ref": "RestLogger.html",
-                          "tf": 10
-                        }
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "m": {
-          "docs": {},
-          "e": {
-            "docs": {},
-            "m": {
-              "docs": {},
-              "b": {
-                "docs": {},
-                "e": {
-                  "docs": {},
-                  "r": {
-                    "docs": {
-                      "RestLogger.html#uri": {
-                        "ref": "RestLogger.html#uri",
-                        "tf": 110
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        },
-        "u": {
-          "docs": {},
-          "r": {
-            "docs": {},
-            "i": {
-              "docs": {
-                "RestLogger.html#uri": {
-                  "ref": "RestLogger.html#uri",
-                  "tf": 750
-                }
-              }
-            }
-          }
         }
       },
-      "length": 29
+      "length": 19
     },
     "corpusTokens": [
-      "_logm",
       "augmented.j",
       "class",
       "color",
@@ -698,17 +524,10 @@ window.lunrData = {
       "list:class",
       "logger",
       "logger.colorconsolelogg",
-      "member",
       "next",
-      "overrid",
       "present",
       "readm",
-      "requir",
-      "rest",
-      "restlogg",
-      "restlogger#uri",
-      "simpli",
-      "uri"
+      "simpli"
     ],
     "pipeline": [
       "trimmer",
@@ -760,27 +579,6 @@ window.lunrData = {
       "summary": "",
       "description": "Color Console Logger",
       "body": ""
-    },
-    "RestLogger.html": {
-      "id": "RestLogger.html",
-      "kind": "class",
-      "title": "RestLogger",
-      "longname": "RestLogger",
-      "name": "RestLogger",
-      "tags": "RestLogger",
-      "summary": "",
-      "description": "REST Logger - *requires override of _logMe",
-      "body": ""
-    },
-    "RestLogger.html#uri": {
-      "id": "RestLogger.html#uri",
-      "kind": "member",
-      "title": "uri",
-      "longname": "RestLogger#uri",
-      "name": "uri",
-      "tags": "RestLogger#uri uri",
-      "summary": "",
-      "description": ""
     }
   }
 };

@@ -10,11 +10,6 @@ Augmented.js Presentation Logger Module
 
 -   [ColorConsoleLogger](#colorconsolelogger)
     -   [Parameters](#parameters)
--   [RestLogger](#restlogger)
-    -   [Parameters](#parameters-1)
-    -   [uri](#uri)
-        -   [Parameters](#parameters-2)
-        -   [Properties](#properties)
 
 ## ColorConsoleLogger
 
@@ -25,29 +20,3 @@ Color Console Logger
 ### Parameters
 
 -   `l` **Logger.Level** The level to initialize the logger with
-
-## RestLogger
-
-**Extends AbstractLogger**
-
-REST Logger - \*requires override of \_logMe
-
-### Parameters
-
--   `l` **Logger.Level** The level to initialize the logger with
--   `uri`  
-
-**Meta**
-
--   **deprecated**: This is deprecated.
-
-
-### uri
-
-#### Parameters
-
--   `uri`  
-
-#### Properties
-
--   `uri` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The URI to use for RestLogger
