@@ -1,5 +1,4 @@
 import { AbstractLogger } from "next-core-logger";
-import { request } from "presentation-request";
 
 /**
  * REST Logger - *requires override of _logMe
@@ -22,7 +21,7 @@ class RestLogger extends AbstractLogger {
     return this._uri;
   };
 
-  _logMe(message) {
+  _logMe(...message) {
     const success = (data, status) => {
       // yippee!!!
     },
