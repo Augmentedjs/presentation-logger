@@ -1,6 +1,6 @@
 {
   "name": "presentation-logger",
-  "version": "2.6.2",
+  "version": "2.6.3",
   "description": "The Augmented.js Next - Presentation Logger Module.",
   "main": "dist/presentation-logger.js",
   "scripts": {
@@ -27,20 +27,20 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.5",
+    "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "documentation": "^11.0.1",
+    "documentation": "^12.1.2",
     "foodoc": "0.0.9",
-    "jsdoc": "^3.6.2",
+    "jsdoc": "^3.6.3",
     "jsdom": "^15.1.1",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.0",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.5"
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
   },
   "dependencies": {
-    "next-core-logger": "^2.5.3"
+    "next-core-logger": "^2.6.1"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-logger/issues"

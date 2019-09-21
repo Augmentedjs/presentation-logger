@@ -10,6 +10,8 @@ Augmented.js Presentation Logger Module
 
 -   [ColorConsoleLogger](#colorconsolelogger)
     -   [Parameters](#parameters)
+-   [ConsoleLogger](#consolelogger)
+    -   [Parameters](#parameters-1)
 
 ## ColorConsoleLogger
 
@@ -20,3 +22,13 @@ Color Console Logger
 ### Parameters
 
 -   `l` **Logger.Level** The level to initialize the logger with
+
+## ConsoleLogger
+
+**Extends AbstractLogger**
+
+Console Logger
+
+### Parameters
+
+-   `l` **Level** The level to initialize the logger with

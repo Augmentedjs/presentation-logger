@@ -65,9 +65,16 @@ window.lunrData = {
           "consol",
           "logger",
           "logger.colorconsolelogg"
+        ],
+        "Logger.ConsoleLogger.html": [
+          "class",
+          "consol",
+          "consolelogg",
+          "logger",
+          "logger.consolelogg"
         ]
       },
-      "length": 4
+      "length": 5
     },
     "tokenStore": {
       "root": {
@@ -312,6 +319,10 @@ window.lunrData = {
                     "Logger.ColorConsoleLogger.html": {
                       "ref": "Logger.ColorConsoleLogger.html",
                       "tf": 110
+                    },
+                    "Logger.ConsoleLogger.html": {
+                      "ref": "Logger.ConsoleLogger.html",
+                      "tf": 110
                     }
                   }
                 }
@@ -383,6 +394,30 @@ window.lunrData = {
                       "Logger.ColorConsoleLogger.html": {
                         "ref": "Logger.ColorConsoleLogger.html",
                         "tf": 16.666666666666664
+                      },
+                      "Logger.ConsoleLogger.html": {
+                        "ref": "Logger.ConsoleLogger.html",
+                        "tf": 25
+                      }
+                    },
+                    "e": {
+                      "docs": {},
+                      "l": {
+                        "docs": {},
+                        "o": {
+                          "docs": {},
+                          "g": {
+                            "docs": {},
+                            "g": {
+                              "docs": {
+                                "Logger.ConsoleLogger.html": {
+                                  "ref": "Logger.ConsoleLogger.html",
+                                  "tf": 750
+                                }
+                              }
+                            }
+                          }
+                        }
                       }
                     }
                   }
@@ -443,6 +478,10 @@ window.lunrData = {
                       "Logger.ColorConsoleLogger.html": {
                         "ref": "Logger.ColorConsoleLogger.html",
                         "tf": 16.666666666666664
+                      },
+                      "Logger.ConsoleLogger.html": {
+                        "ref": "Logger.ConsoleLogger.html",
+                        "tf": 25
                       }
                     },
                     ".": {
@@ -497,6 +536,38 @@ window.lunrData = {
                                 }
                               }
                             }
+                          },
+                          "n": {
+                            "docs": {},
+                            "s": {
+                              "docs": {},
+                              "o": {
+                                "docs": {},
+                                "l": {
+                                  "docs": {},
+                                  "e": {
+                                    "docs": {},
+                                    "l": {
+                                      "docs": {},
+                                      "o": {
+                                        "docs": {},
+                                        "g": {
+                                          "docs": {},
+                                          "g": {
+                                            "docs": {
+                                              "Logger.ConsoleLogger.html": {
+                                                "ref": "Logger.ConsoleLogger.html",
+                                                "tf": 1150
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
                           }
                         }
                       }
@@ -508,7 +579,7 @@ window.lunrData = {
           }
         }
       },
-      "length": 19
+      "length": 24
     },
     "corpusTokens": [
       "augmented.j",
@@ -516,6 +587,7 @@ window.lunrData = {
       "color",
       "colorconsolelogg",
       "consol",
+      "consolelogg",
       "develop",
       "document",
       "global",
@@ -524,6 +596,7 @@ window.lunrData = {
       "list:class",
       "logger",
       "logger.colorconsolelogg",
+      "logger.consolelogg",
       "next",
       "present",
       "readm",
@@ -578,6 +651,17 @@ window.lunrData = {
       "tags": "Logger.ColorConsoleLogger ColorConsoleLogger",
       "summary": "",
       "description": "Color Console Logger",
+      "body": ""
+    },
+    "Logger.ConsoleLogger.html": {
+      "id": "Logger.ConsoleLogger.html",
+      "kind": "class",
+      "title": "ConsoleLogger",
+      "longname": "Logger.ConsoleLogger",
+      "name": "ConsoleLogger",
+      "tags": "Logger.ConsoleLogger ConsoleLogger",
+      "summary": "",
+      "description": "Console Logger",
       "body": ""
     }
   }
