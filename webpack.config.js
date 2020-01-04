@@ -1,16 +1,16 @@
-const path = require('path');
-const webpack = require('webpack');
+const path = require("path");
+const webpack = require("webpack");
 
 module.exports = {
-  entry: './src/index.js',
+  entry: "./src/index.js",
   context: __dirname,
   target: "web",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: 'presentation-logger.js',
-    publicPath: '/dist/',
+    path: path.resolve(__dirname, "dist"),
+    filename: "presentation-logger.js",
+    publicPath: "/dist/",
     library: "presentation-logger",
-    globalObject: 'this',
+    globalObject: "this",
     libraryTarget: "umd",
     umdNamedDefine: true
   },
@@ -26,11 +26,11 @@ module.exports = {
     ]
   },
   externals: {
-    'next-core-logger': {
-      commonjs: 'next-core-logger',
-      commonjs2: 'next-core-logger',
-      amd: 'next-core-logger',
-      root: 'next-core-logger'
+    "next-core-logger": {
+      commonjs: "next-core-logger",
+      commonjs2: "next-core-logger",
+      amd: "next-core-logger",
+      root: "next-core-logger"
     }
   },
   stats: "errors-only",

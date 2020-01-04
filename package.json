@@ -1,6 +1,6 @@
 {
   "name": "presentation-logger",
-  "version": "2.6.4",
+  "version": "2.6.5",
   "description": "The Augmented.js Next - Presentation Logger Module.",
   "main": "dist/presentation-logger.js",
   "scripts": {
@@ -30,14 +30,14 @@
     "babel-loader": "^8.0.6",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.2.0",
-    "documentation": "^12.1.2",
+    "documentation": "^12.1.4",
     "foodoc": "0.0.9",
     "jsdoc": "^3.6.3",
-    "jsdom": "^15.1.1",
-    "mocha": "^6.2.0",
+    "jsdom": "^15.2.1",
+    "mocha": "^6.2.2",
     "mocha-jsdom": "^2.0.0",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.9"
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "next-core-logger": "^2.6.1"
