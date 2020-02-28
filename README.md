@@ -22,6 +22,16 @@ Augmented.js Presentation Logger Module
     -   [Parameters](#parameters-5)
 -   [warn](#warn)
     -   [Parameters](#parameters-6)
+-   [log](#log-1)
+    -   [Parameters](#parameters-7)
+-   [info](#info-1)
+    -   [Parameters](#parameters-8)
+-   [error](#error-1)
+    -   [Parameters](#parameters-9)
+-   [debug](#debug-1)
+    -   [Parameters](#parameters-10)
+-   [warn](#warn-1)
+    -   [Parameters](#parameters-11)
 
 ## ColorConsoleLogger
 
@@ -42,6 +52,49 @@ Console Logger
 ### Parameters
 
 -   `l` **Level** The level to initialize the logger with
+
+## log
+
+log a message with default level
+
+### Parameters
+
+-   `message` **[string](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String)** The message to log
+-   `level` **Logger.Level** The level of the log message
+
+Returns **Any** The message
+
+## info
+
+Logs a message in info level
+
+### Parameters
+
+-   `message` **Any** 
+
+## error
+
+Log a message in error level
+
+### Parameters
+
+-   `message` **Any** 
+
+## debug
+
+Log a message in debug level
+
+### Parameters
+
+-   `message` **Any** 
+
+## warn
+
+Log a message in warn level
+
+### Parameters
+
+-   `message` **Any** 
 
 ## log
 

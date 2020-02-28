@@ -1,15 +1,11 @@
 import { Level } from "next-core-logger";
 import ConsoleLogger from "./logger.js";
 
-class BasicLogger extends  ConsoleLogger {
+class SimpleLogger extends  ConsoleLogger {
   constructor(l) {
     super(l);
     this.loggerLevel = (l) ? l : Level.INFO;
     this.label = Level;
-    this.TIME_SEPERATOR = ":";
-    this.DATE_SEPERATOR = "-";
-    this.OPEN_GROUP = " [ ";
-    this.CLOSE_GROUP = " ] ";
   };
 
   /**
@@ -27,7 +23,7 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   info(...message) {
-    return this._logMe(Level.INFO, `${this.OPEN_GROUP}INFO  ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.INFO, ...message);
   };
 
   /**
@@ -35,7 +31,7 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   error(...message) {
-    return this._logMe(Level.ERROR, `${this.OPEN_GROUP}ERROR ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.ERROR, ...message);
   };
 
   /**
@@ -43,7 +39,7 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   debug(...message) {
-    return this._logMe(Level.DEBUG, `${this.OPEN_GROUP}DEBUG ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.DEBUG, ...message);
   };
 
   /**
@@ -51,8 +47,8 @@ class BasicLogger extends  ConsoleLogger {
    * @param {Any} message
    */
   warn(...message) {
-    return this._logMe(Level.WARN, `${this.OPEN_GROUP}WARN  ${this.CLOSE_GROUP}`, ...message);
+    return this._logMe(Level.WARN, ...message);
   };
 };
 
-export default BasicLogger;
+export default SimpleLogger;
