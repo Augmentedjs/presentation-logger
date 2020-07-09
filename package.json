@@ -1,6 +1,6 @@
 {
   "name": "presentation-logger",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "The Augmented.js Next - Presentation Logger Module.",
   "main": "dist/presentation-logger.js",
   "scripts": {
@@ -41,7 +41,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
-    "next-core-logger": "^2.8.1"
+    "next-core-logger": "^3.0.0"
   },
   "bugs": {
     "url": "https://github.com/Augmentedjs/presentation-logger/issues"
